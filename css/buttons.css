@@ -1,0 +1,107 @@
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 10px 12px;
+  font-size: 12px;
+  line-height: 1.6;
+  border-radius: 2px;
+  user-select: none;
+}
+
+.btn:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.btn.disabled, .btn[disabled],
+fieldset[disabled] .btn {
+  cursor: disabled;
+  opacity: .65;
+}
+
+a.btn.disabled,
+fieldset[disabled] a.btn {
+  pointer-events: none;
+}
+
+.btn--brand {
+  color: #fff;
+  background-color: #6fb048;
+  border-color: #6fb048;
+}
+
+.btn--brand:hover {
+  color: #fff;
+  background-color: #588c39;
+  border-color: #588c39;
+}
+
+.btn--brand:active, .btn--brand.active {
+  color: #fff;
+  background-color: #588c39;
+  border-color: #588c39;
+}
+
+.btn--brand.disabled, .btn--brand.disabled:hover, .btn--brand.disabled:focus, .btn--brand.disabled.focus, .btn--brand.disabled:active, .btn--brand.disabled.active, .btn--brand[disabled], .btn--brand[disabled]:hover, .btn--brand[disabled]:focus, .btn--brand[disabled].focus, .btn--brand[disabled]:active, .btn--brand[disabled].active,
+fieldset[disabled] .btn--brand,
+fieldset[disabled] .btn--brand:hover,
+fieldset[disabled] .btn--brand:focus,
+fieldset[disabled] .btn--brand.focus,
+fieldset[disabled] .btn--brand:active,
+fieldset[disabled] .btn--brand.active {
+  background-color: #6fb048;
+  border-color: #6fb048;
+}
+
+.btn--link {
+  color: #83a7a5;
+  font-weight: normal;
+  border-radius: 0;
+}
+
+.btn--link, .btn--link:active, .btn--link.active, .btn--link[disabled],
+fieldset[disabled] .btn--link {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.btn--link, .btn--link:hover, .btn--link:focus, .btn--link:active {
+  border-color: transparent;
+}
+
+.btn--link:hover, .btn--link:focus {
+  color: #67908e;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.btn--link[disabled]:hover, .btn--link[disabled]:focus,
+fieldset[disabled] .btn--link:hover,
+fieldset[disabled] .btn--link:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn--block {
+  display: block;
+  width: 100%;
+}
+
+.btn--block + .btn--block {
+  margin-top: 5px;
+}
+
+input[type="submit"].btn--block,
+input[type="reset"].btn--block,
+input[type="button"].btn--block {
+  width: 100%;
+}

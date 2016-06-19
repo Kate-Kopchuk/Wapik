@@ -1,0 +1,47 @@
+input {
+  width: 100%;
+}
+
+.form__input--default {
+  color: #fff;
+  background: #fff;
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid #aab2bd;
+  border-radius: 5px;
+}
+
+.form__input--pill {
+  color: #fff;
+  background: #fff;
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid #aab2bd;
+  border-radius: 15px;
+}
+
+.succes label {
+  color: #8cc152;
+}
+
+.form__input--succes {
+  color: #fff;
+  background: #fff;
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid #8cc152;
+  border-radius: 5px;
+}
+
+.error label {
+  color: #da4453;
+}
+
+.form__input--error {
+  color: #fff;
+  background: #fff;
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid #da4453;
+  border-radius: 5px;
+}

@@ -1,0 +1,59 @@
+/*#83a7a5*/
+/*#0f5f5c*/
+body {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #83a7a5;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  color: #0f5f5c;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 38px;
+  margin: 22px 0;
+}
+
+h2 {
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+h3 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+h4 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+h5 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+h6 {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+p {
+  margin: 0 0 10px 0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+}

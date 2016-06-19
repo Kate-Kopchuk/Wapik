@@ -1,0 +1,109 @@
+//## Brand colors
+$default-color: #fff;
+$succes-color: #6fb048;
+$primary-color: #83a7a5;
+
+$brand-color: #0f5f5c !default;
+
+// Background
+$brand-background: #2d6e70;
+$primary-background: #eef1ec;
+
+//## Settings for some of the most global styles.
+$body-bg:               $default-color !default;
+$text-color:            $primary-color !default;
+$link-color:            $text-color !default;
+$link-hover-color:      darken($link-color, 10%) !default;
+$link-hover-decoration: none !default;
+
+
+//## Typography
+$font-family-base:        Roboto, Arial, Helvetica, sans-serif;
+$font-size-base:          14px;
+$line-height-base:        1.6;
+
+$headings-font-family:    inherit !default;
+$headings-font-weight:    400 !default;
+$headings-line-height:    inherit !default;
+$headings-color:          inherit !default;
+
+$font-size-h1:            floor(($font-size-base * 2.75)) !default; // ~38px
+$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~32px
+$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-h5:            $font-size-base !default;
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
+
+$margin-h1:               0 !default;
+$margin-h2:               20px 0 !default;
+$margin-h3:               15px 0 !default;
+$margin-h4:               10px 0 !default;
+$margin-h5:               5px 0 !default;
+$margin-h6:               2px 0 !default;
+
+$paragraph-margin:        10px !default;
+
+// Fonts
+
+$primary-font: Montserrat, Arial, Helvetica, sans-serif;
+$secondary-font: Merriweather, Arial, Helvetica, sans-serif;
+
+//## Buttons
+$btn-font-size:                  12px !default;
+$btn-font-size-sm:               13px;
+$btn-font-size-md:               14px;
+$btn-font-size-lg:               13px;
+
+$btn-font-weight:                normal !default;
+$btn-border-width:               1px !default;
+$btn-border-radius:              2px !default;
+
+$btn-padding-vertical:           6px !default;
+$btn-padding-vertical-sm:        10px;
+$btn-padding-vertical-md:        13px;
+$btn-padding-vertical-lg:        17px;
+
+$btn-padding-horizontal:         12px !default;
+$btn-padding-horizontal-sm:      22px;
+$btn-padding-horizontal-md:      43px;
+$btn-padding-horizontal-lg:      25px;
+
+$btn-default-color:              #fff !default;
+$btn-succes-bg:                  $succes-color !default;
+$btn-primary-bg:                 $primary-color;
+$btn-succes-border:              $succes-color !default;
+$btn-primary-border:             $primary-color !default;
+
+$btn-default-color-hover:        #fff !default;
+$btn-succes-bg-hover:            darken($succes-color, 10%) !default;
+$btn-succes-border-hover:        darken($succes-color, 10%) !default;
+$btn-primary-bg-hover:           darken($primary-color, 10%) !default;
+$btn-primary-border-hover:       darken($primary-color, 10%) !default;
+
+$btn-link-disabled-color:        #fff !default;
+
+
+// ## Forms
+$input-bg:                       #fff !default;
+$input-bg-disabled:              #ccc !default;
+$input-color:                    $text-color !default;
+$input-border:                   #ccc !default;
+$input-border-radius:            0 !default;
+$input-border-focus:             #66afe9 !default;
+$input-color-placeholder:        #999 !default;
+
+$input-height-base:              40px  !default;
+$input-font-size:                16px !default;
+$input-line-height:              1.4 !default;
+$input-border-width:             1px !default;
+$input-line-height-computed:     floor($input-font-size * $input-line-height) !default;
+
+$input-padding:                  ($input-height-base - $input-line-height-computed - $input-border-width) / 2 !default;
+$input-padding-vertical:         $input-padding !default;
+$input-padding-horizontal:       10px !default;
+
+$form-group-margin-bottom:       15px !default;
+$cursor-disabled:                not-allowed !default;
+
+// Position
+$text-align-left: left;
